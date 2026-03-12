@@ -1,4 +1,4 @@
-# RDAMP-Sales-Analysis_Vineet_Khurama
+# Ace Superstore Sales Analysis_Vineet_Khurama
 
 ## About the Project
 
@@ -8,7 +8,7 @@ This project was completed as part of the **Realcare Tech Mark Ltd Data Analytic
 
 ## Objective
 
-Analyze the sales data of **Ace Superstore** to:
+Analyse the sales data of **Ace Superstore** to:
 
 - Identify regional performance gaps
 - Understand customer behaviour patterns
@@ -48,13 +48,13 @@ Performed ETL (Extract, Transform, Load) using Power BI and Power Query:
 9. Built **Date Dimension Table** using `CALENDAR()`
 10. Added columns to Date table: `[Month]`, `[Year]`, `[Quarter]`, `[MonthKey]`
 11. Created date hierarchy: `[Year] > [Quarter] > [Month] > [Date]`
-12. Used Extract function and delimiter '-' to generate **Segment** column from Category
+12. Used the Extract function and delimiter '-' to generate **Segment** column from the Category
 13. Used DAX `IF()` to fill empty values in Category fields
 14. Added `[List Price]` column: `List Price = Sales / (1 - Discount)`
 
 ---
 
-## Data Modeling
+## Data Modelling
 
 Established a star schema model:
 
